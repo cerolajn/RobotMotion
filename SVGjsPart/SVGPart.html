@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UT-8">
+    <title>SVGjs Presentation</title>
+    <link rel= "stylesheet" type="text/css" href="svgStyleSheet.css">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.3/svg.min.js"></script>-->
+    <script src="../Library/svg.js-master/dist/svg.js"></script>
+    <script src="../Library/svgPath/spec/lib/svg.js"></script>
+    <script src="../Library/svgPath/svg.path.js"></script>
+    <script src="../Algorithm/Algorithm.js"></script>
+</head>
+<body>
+<div id ="svgContainer">
+    <div id ="path"></div>
+</div>
+<div class = "posList">
+    <ol class = "positionList"></ol>
+</div>
+<!--Top buttons-->
+<div class="topButtons">
+    <input type = "button" value ="Show route" id="resultClick">
+</div>
+<!-- Bottom buttons-->
+<div class="bottomButtons">
+    <input type = "button" value ="Draw Initial Point" id ="initialPoint">
+    <input type = "button" value ="Draw Target Point" id ="targetPoint">
+    <input type = "button" value ="Draw Obstacles" id ="obstacles">
+    <input type="range" min="5" max="120" step="5" id="obstacleScaling">
+    <div class="colorSelect slate">
+        <p class ="colorTitle">Select Obstacle Color</p>
+        <select id="selectingColor">
+            <option value="black"selected="selected">black</option>
+            <option value="blue">blue</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="gray">gray</option>
+            <option value="pink">pink</option>
+            <option value="orange">orange</option>
+        </select>
+    </div>
+    <input type = "button" value ="Clear Board" id ="clearBoard">
+    <ol class = "alertInfoList"></ol>
+</div>
+<script src="svgjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/Algorithm/Algorithm.js" />
+        <item url="file://$PROJECT_DIR$/dist/CanvasPart/canvasjs.js" />
+        <item url="file://$PROJECT_DIR$/dist/SVGjsPart/svgjs.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/Algorithm/Algorithm.js" />
+      <root url="file://$PROJECT_DIR$/dist/CanvasPart/canvasjs.js" />
+      <root url="file://$PROJECT_DIR$/dist/SVGjsPart/svgjs.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
